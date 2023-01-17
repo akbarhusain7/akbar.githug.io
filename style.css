@@ -50,6 +50,27 @@ p {
     color: #fff;
 }
 
+.colored-sectionb {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+@media (max-width:990.40px) {
+
+
+    .colored-sectionb {
+        height: 1100px;
+    }
+}
+
+@media (max-width:696px) {
+
+
+    .colored-sectionb {
+        height: 1300px;
+    }
+}
+
 .white-section {
     background-color: #fff;
 }
@@ -101,10 +122,10 @@ p {
 /* Title image */
 
 .title-image {
-    width: 60%;
+    width: 1183px;
     transform: rotate(25deg);
     position: absolute;
-    right: 20%;
+    right: -330px;
 
 
 }
@@ -159,6 +180,14 @@ p {
     margin: 20px;
 }
 
+.testimonial-image1 {
+    width: 100%;
+    border-radius: 10%;
+    margin-top: 2%;
+    margin: 20px;
+}
+
+
 
 
 
@@ -201,28 +230,66 @@ p {
     margin: 20px 10px;
 }
 
-@media(max-width:1170px) {
+@media(max-width:1270px) {
     #title {
         text-align: center;
 
     }
 
     .title-image {
-        position: static;
+        width: 700px;
+        position: absolute;
         transform: rotate(0);
+        left: -50px;
+    }
 
+
+}
+
+@media(max-width:696px) {
+    #title {
+        text-align: center;
 
     }
+
+    .title-image {
+        width: 700px;
+        position: absolute;
+
+        left: -145px;
+    }
+
+
 }
+
 
 .bran {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: black;
 }
 
-.speakerv {
+/* .speakerv {
     width: 540px;
     height: 403px;
     border-radius: 100%;
 
+}
+
+@media(max-width:1170px) {
+    .speakerv {
+        width: 200px;
+        border-radius: 56px;
+    }
+} */
+
+
+.an {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    line-height: 3rem;
+}
+
+span {
+    color: aqua;
+    font-family: cursive;
 }
